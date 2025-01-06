@@ -33,4 +33,4 @@ The pipeline uses several tools to carry out its tasks. You can install the tool
 * [**minimap2**](https://github.com/lh3/minimap2 "minimap2"): Used for gene-to-read mapping.
 * [**Prodigal**](https://github.com/hyattpd/Prodigal "Prodigal"): Used for gene finding & annotation.
 
-If you have any questions, suggestions for improvements, bug fixes, or features, feel free to contact the project maintainers.
+If you have any questions or suggestions for bug fixes or new features, feel free to contact the project maintainers.
