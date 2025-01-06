@@ -8,7 +8,7 @@ To facilitate the assembly, especially given the uncertainty in real-world seque
 
 The core of the pipeline is written in **Bash** and **Python3**. Below is a high-level overview of the different steps:
 
-1. **Gene Identification**: Identify genes on the long reads and spell each long read as sequence of gene identifiers.
+1. **Gene Identification**: Identify genes on long reads and spell each long read as sequence of gene identifiers.
 2. ***k*-mer Extraction**: Split each long read into a set of overlapping *k*-mers over the gene identifier alphabet.
 3. **Preprocessing**: Classify each *k*-mer as either *chromosomal* or *plasmidic* using [Platon](https://github.com/oschwengers/platon "Platon") to aid in later assembly.
 4. **Graph Construction**: Construct a de Bruijn graph from the *k*-mers and perform some basic error correction.
@@ -25,7 +25,7 @@ We evaluate the preprocessing step across four different experimental setups wit
 
 ## Dependencies
 
-To run the pipeline, make sure that you have the necessary dependencies installed and your environment is set up correctly.  
+To run the pipeline, make sure that you have the necessary dependencies installed and your environment is set up correctly.
 The pipeline uses several tools to carry out its tasks. You can install the tools by following their respective installation guides:
 
 * [**Platon**](https://github.com/oschwengers/platon "Platon"): Used for plasmid classification.
